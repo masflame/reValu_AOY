@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reValu | Smarter Recycling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__brand">
+  <img src="reValu4.jpg" alt="reValu logo" class="nav__logo">
+      <span class="nav__title">reValu</span>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav__burger" aria-label="Toggle navigation" aria-controls="primary-navigation">
+      <span></span>
+    </label>
+
+    <nav class="nav__links" id="primary-navigation" aria-label="Primary">
+  <a href="#features" data-nav-link>Features</a>
+  <a href="#impact" data-nav-link>Impact</a>
+  <a href="#how-it-works" data-nav-link>How It Works</a>
+  <a href="#faq" data-nav-link>FAQ</a>
+      <div class="nav__cta nav__cta--mobile">
+  <a class="btn btn--ghost" href="#download" data-nav-link>Download</a>
+        <a class="btn btn--solid" href="https://play.google.com" target="_blank" rel="noopener">Get the App</a>
+      </div>
+    </nav>
+
+    <div class="nav__cta nav__cta--desktop">
+  <a class="btn btn--ghost" href="#download" data-nav-link>Download</a>
+      <a class="btn btn--solid" href="https://play.google.com" target="_blank" rel="noopener">Get the App</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <p class="hero__preheading">Recycle. Redeem. Reimagine.</p>
+        <h1 class="hero__heading">Turn everyday recycling into instant rewards.</h1>
+        <p class="hero__body">reValu empowers households and collectors to keep materials in circulation. Track every pickup, earn verifiable rewards, and see the positive climate impact you generate in real time.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--solid" href="#download">Download reValu</a>
+          <a class="btn btn--ghost" href="#demo">Watch 90s Demo</a>
+        </div>
+        <dl class="hero__stats">
+          <div>
+            <dt>Materials recovered</dt>
+            <dd>8.2M kg</dd>
+          </div>
+          <div>
+            <dt>Rewards paid out</dt>
+            <dd>$1.4M</dd>
+          </div>
+          <div>
+            <dt>Communities onboard</dt>
+            <dd>120+</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero__visual" role="presentation">
+        <div class="hero__card hero__card--primary">
+          <h2>Next Pickup</h2>
+          <p>Thursday, 7:30 AM</p>
+          <div class="hero__chip">Route NRB-12</div>
+          <div class="hero__progress">
+            <div class="hero__progress-fill" style="width: 68%"></div>
+          </div>
+          <p class="hero__label">Recycling goal: 68% complete</p>
+        </div>
+        <div class="hero__card hero__card--secondary">
+          <h3>This Month</h3>
+          <ul>
+            <li><span>Plastics</span><strong>28 kg</strong></li>
+            <li><span>Paper</span><strong>19 kg</strong></li>
+            <li><span>Metals</span><strong>11 kg</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners" aria-label="Trusted by impact leaders">
+      <p>Trusted by leading cities, campuses, and recyclers</p>
+      <div class="partners__logos">
+  <img src="https://dummyimage.com/120x32/f7e9a4/282828.png&text=GreenCity" alt="GreenCity">
+  <img src="https://dummyimage.com/120x32/f7e9a4/282828.png&text=EcoCampus" alt="EcoCampus">
+  <img src="https://dummyimage.com/120x32/f7e9a4/282828.png&text=RenewCo" alt="RenewCo">
+  <img src="https://dummyimage.com/120x32/f7e9a4/282828.png&text=CircularLab" alt="CircularLab">
+  <img src="https://dummyimage.com/120x32/f7e9a4/282828.png&text=GlobalWaste" alt="GlobalWaste">
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Why reValu works</p>
+        <h2 class="section-heading__title">A recycling companion designed for measurable climate impact.</h2>
+        <p class="section-heading__body">We orchestrate every part of the circular journey, from household scheduling to materials processing. The result: higher recovery rates, lower operating costs, and delighted residents.</p>
+      </div>
+      <div class="features__grid">
+        <article class="feature-card">
+          <span class="feature-card__icon">📅</span>
+          <h3>Smart pickups</h3>
+          <p>Book pickups in seconds. Our routing engine pairs you with verified collectors and guarantees on-time arrivals.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-card__icon">🔍</span>
+          <h3>Full traceability</h3>
+          <p>Each bag gets a QR code so you can see the exact facility and output grade, removing guesswork from recycling.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-card__icon">💎</span>
+          <h3>Instant rewards</h3>
+          <p>Cash out to mobile money, airtime, or campus wallets the moment a drop-off is verified. Zero friction.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-card__icon">📈</span>
+          <h3>Impact intelligence</h3>
+          <p>Dashboards translate your effort into CO2 avoided, jobs supported, and resources saved for your community.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact" id="impact">
+      <div class="impact__visual" role="presentation">
+  <img src="https://dummyimage.com/520x340/282828/f1cb12.png&text=Live+Impact+Analytics" alt="Live impact analytics mockup">
+      </div>
+      <div class="impact__content">
+        <p class="section-heading__eyebrow">Proof, not promises</p>
+        <h2 class="section-heading__title">Track carbon savings and resource recovery in real time.</h2>
+        <p class="section-heading__body">Recycling is only as credible as the data behind it. reValu collects verified insights from collectors, processors, and blockchain-backed certificates, so every kilogram diverted is audit ready.</p>
+        <ul class="impact__list">
+          <li>Automated diversion reports for municipalities and campuses</li>
+          <li>Auditable carbon credits and ESG-ready documentation</li>
+          <li>AI-powered contamination alerts to keep streams clean</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Three steps to circularity</p>
+        <h2 class="section-heading__title">From doorstep to depot in minutes.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__step">
+          <div class="timeline__badge">1</div>
+          <h3>Schedule and sort</h3>
+          <p>Pick a pickup time and select the materials you are recycling. reValu sends prep tips so every bag is inspection ready.</p>
+        </div>
+        <div class="timeline__step">
+          <div class="timeline__badge">2</div>
+          <h3>Scan and handoff</h3>
+          <p>Collectors scan the QR tag, weigh your recyclables, and log the condition. You receive instant confirmation in-app.</p>
+        </div>
+        <div class="timeline__step">
+          <div class="timeline__badge">3</div>
+          <h3>Earn and track</h3>
+          <p>Rewards hit your wallet the moment the material clears inspection. Follow its journey to the nearest processing hub.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-label="Customer stories">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Loved by climate champions</p>
+        <h2 class="section-heading__title">Communities that recycle more, earn more.</h2>
+      </div>
+      <div class="testimonials__grid">
+        <figure class="testimonial">
+          <blockquote>Since launching reValu, our contamination rate dropped below 3% and residents doubled their recycling frequency.</blockquote>
+          <figcaption>
+            <strong>Joyce Mwangi</strong>
+            <span>Director of Sustainability, Nairobi West Council</span>
+          </figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>Rewards are transparent and immediate. Drivers see their impact, citizens see their savings, and our landfill tonnage keeps falling.</blockquote>
+          <figcaption>
+            <strong>Samuel Tlou</strong>
+            <span>Operations Lead, Circular SA</span>
+          </figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>Our students gamify recycling using reValu leaderboards. Engagement is up 4x and we have the data to prove it.</blockquote>
+          <figcaption>
+            <strong>Dr. Angela Kibet</strong>
+            <span>Head of Sustainability, SPU</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="demo" id="demo">
+      <div class="demo__content">
+        <h2>See reValu in action</h2>
+        <p>Explore a guided walkthrough of the collector and resident experiences, including real-time tracking and rewards redemption.</p>
+        <a class="btn btn--solid" href="https://www.youtube.com" target="_blank" rel="noopener">Play product demo</a>
+      </div>
+      <div class="demo__video" role="presentation">
+  <img src="https://dummyimage.com/560x320/282828/f1cb12.png&text=Play+Demo" alt="Product demo preview">
+      </div>
+    </section>
+
+    <section class="download" id="download">
+      <div class="download__content">
+        <p class="section-heading__eyebrow">Download now</p>
+        <h2 class="section-heading__title">Ready to unlock rewards for every kilo recycled?</h2>
+        <p class="section-heading__body">Join thousands of households and collectors already accelerating Africa's transition to a circular economy.</p>
+        <div class="store-buttons">
+          <a class="store-button" href="https://play.google.com" target="_blank" rel="noopener">
+            <img src="https://dummyimage.com/160x48/f1cb12/282828.png&text=Google+Play" alt="Download on Google Play">
+          </a>
+          <a class="store-button" href="https://www.apple.com/app-store/" target="_blank" rel="noopener">
+            <img src="https://dummyimage.com/160x48/f1cb12/282828.png&text=App+Store" alt="Download on the App Store">
+          </a>
+          <a class="store-button" href="https://appgallery.huawei.com" target="_blank" rel="noopener">
+            <img src="https://dummyimage.com/160x48/f1cb12/282828.png&text=AppGallery" alt="Download on Huawei AppGallery">
+          </a>
+        </div>
+      </div>
+      <div class="download__mockup" role="presentation">
+  <img src="https://dummyimage.com/420x540/282828/f1cb12.png&text=reValu+App+Mockup" alt="reValu mobile app mockup">
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Questions, answered</p>
+        <h2 class="section-heading__title">Everything you need to know before recycling with reValu.</h2>
+      </div>
+      <div class="faq__grid">
+        <article class="faq__item">
+          <h3>Which materials can I recycle?</h3>
+          <p>We support PET, HDPE, PP, paper, cardboard, metals, and glass. You will see accepted streams for your area inside the app.</p>
+        </article>
+        <article class="faq__item">
+          <h3>How fast do rewards arrive?</h3>
+          <p>Rewards are released instantly once collectors submit verified weights and photos at the depot.</p>
+        </article>
+        <article class="faq__item">
+          <h3>Do I need special bins?</h3>
+          <p>No. The app guides you on how to clean and bag items using materials you already have.</p>
+        </article>
+        <article class="faq__item">
+          <h3>Is there a plan for enterprises?</h3>
+          <p>Yes. We offer APIs, white-labeled apps, and ESG reporting tailored for corporates and property managers.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+  <img src="reValu.png" alt="reValu logo" class="footer__logo">
+      <div>
+        <p class="footer__title">reValu</p>
+        <p class="footer__tagline">Circular economy powered by communities.</p>
+      </div>
+    </div>
+    <div class="footer__links">
+      <div>
+        <h4>Company</h4>
+          <a href="#" data-nav-link>Privacy</a>
+          <a href="#" data-nav-link>Terms</a>
+          <a href="#" data-nav-link>Accessibility</a>
+      </div>
+      <div>
+        <h4>Product</h4>
+  <a href="#features" data-nav-link>Features</a>
+  <script>
+    (function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navLinks = document.querySelectorAll('[data-nav-link]');
+
+      if (document.documentElement) {
+        document.documentElement.style.scrollBehavior = 'smooth';
+      }
+
+      navLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+          const targetId = link.getAttribute('href');
+
+          if (targetId && targetId.startsWith('#') && targetId.length > 1) {
+            event.preventDefault();
+            const targetEl = document.querySelector(targetId);
+
+            if (!targetEl) {
+              window.location.assign(targetId);
+              return;
+            }
+
+            const performScroll = () => targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            if (navToggle && navToggle.checked) {
+              navToggle.checked = false;
+              setTimeout(performScroll, 200);
+            } else {
+              performScroll();
+            }
+          }
+        });
+      });
+    })();
+  </script>
+  <a href="#how-it-works" data-nav-link>How it works</a>
+  <a href="#download" data-nav-link>Pricing</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="mailto:hello@revalu.africa">hello@revalu.africa</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer__legal">
+  <p>© 2025 reValu Circular Solutions. All rights reserved.</p>
+      <div class="footer__policies">
+  <a href="#" data-nav-link>Privacy</a>
+  <a href="#" data-nav-link>Terms</a>
+  <a href="#" data-nav-link>Accessibility</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navLinks = document.querySelectorAll('[data-nav-link]');
+
+      if (document.documentElement) {
+        document.documentElement.style.scrollBehavior = 'smooth';
+      }
+
+      navLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+          const targetId = link.getAttribute('href');
+
+          if (targetId && targetId.startsWith('#') && targetId.length > 1) {
+            event.preventDefault();
+            const targetEl = document.querySelector(targetId);
+
+            if (!targetEl) {
+              window.location.assign(targetId);
+              return;
+            }
+
+            const performScroll = () => targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            if (navToggle && navToggle.checked) {
+              navToggle.checked = false;
+              setTimeout(performScroll, 200);
+            } else {
+              performScroll();
+            }
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
